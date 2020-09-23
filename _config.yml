@@ -53,3 +53,18 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+prose:
+#  rooturl: '_posts'
+  siteurl: 'https://marshmallow444.github.io/blog_prose/'
+  media: 'media'
+  metadata:
+    _posts:
+      - name: "layout"
+        field:
+          element: "hidden"
+          value: "blog"
+      - name: "title"
+        field:
+          element: "text"
+          value: ""
